@@ -17,10 +17,15 @@ In R, you may need to install packages: shiny, shinythemes, reticulate, Rmagic, 
 In file server.R, you may need to set up the variables below:
 
 c_python <- ".../anaconda3/python.exe"
+
 c_conda <- ".../anaconda3/Scripts/conda.exe"
+
 c_linmethods <- ".../linmethods.py"
+
 c_run_experiment <- ".../runExperiments.R"
+
 c_shiny_run <- ".../Shiny_run" # Folder for output
+
 c_shiny_run_dash <- ".../Shiny_run/shiny_run_" # Output file
 
 In file runExperiments.R, please set the following variable:
