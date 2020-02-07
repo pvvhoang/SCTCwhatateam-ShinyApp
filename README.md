@@ -27,4 +27,6 @@ In file runExperiments.R, please set the following variable:
 
 c_linmethods_py <- ".../linmethods.py"
 
+### Tutorial
+
 The sample data and user guide can be obtained from here: https://www.dropbox.com/sh/q7fq3y5yw1lmtrq/AAAnVDVAWzdBRS6FJor-Bk1Aa?dl=0
