@@ -8,24 +8,23 @@ To use this Shiny application, you can use RStudio and you will need to install 
 
 We recommend anaconda3 if you need to install python, pip, and conda. You also need to install magic-impute.
 
-In R, you may need to install packages: Rmagic, shiny, shinythemes, reticulate, SCTCwhatateam
+In R, you may need to install packages: shiny, shinythemes, reticulate, Rmagic, SCTCwhatateam, and ggplot2. For the SCTCwhatateam, you can install from github https://github.com/thanhbuu04/SCTCwhatateam
 
 ## Quick Start
 
-Set
+### Set up the environment
 
-saple data https://www.dropbox.com/sh/q7fq3y5yw1lmtrq/AAAnVDVAWzdBRS6FJor-Bk1Aa?dl=0 
+In file server.R, you may need to set up the variables below:
 
-serevr.R
+c_python <- ".../anaconda3/python.exe"
+c_conda <- ".../anaconda3/Scripts/conda.exe"
+c_linmethods <- ".../linmethods.py"
+c_run_experiment <- ".../runExperiments.R"
+c_shiny_run <- ".../Shiny_run" # Folder for output
+c_shiny_run_dash <- ".../Shiny_run/shiny_run_" # Output file
 
-c_conda <- "C:/Users/phavy022/AppData/Local/Continuum/anaconda3/Scripts/conda.exe"
-c_python <- "C:/Users/phavy022/AppData/Local/Continuum/anaconda3/python.exe"
-c_linmethods <- "C:/Users/phavy022/MyDoc/13Dream/WhatATeam/Shiny_SCTC/codes/linmethods.py"
-c_shiny_run <- "C:/Users/phavy022/MyDoc/13Dream/WhatATeam/Shiny_SCTC/Shiny_run"
-c_run_experiment <- "C:/Users/phavy022/MyDoc/13Dream/Script/runExperiments.R"
-c_codes <- "C:/Users/phavy022/MyDoc/13Dream/WhatATeam/Shiny_SCTC/codes/"
-c_shiny_run_dash <- "C:/Users/phavy022/MyDoc/13Dream/WhatATeam/Shiny_SCTC/Shiny_run/shiny_run_"
+In file runExperiments.R, please set the following variable:
 
-runExperiments.R
-c_rlist <- "C:/Users/phavy022/MyDoc/13Dream/WhatATeam/Shiny_SCTC/Data/rlist.rda"
-c_linmethods_py <- "C:/Users/phavy022/MyDoc/13Dream/WhatATeam/Shiny_SCTC/codes/linmethods.py"
+c_linmethods_py <- ".../linmethods.py"
+
+The sample data and user guide can be obtained from here: https://www.dropbox.com/sh/q7fq3y5yw1lmtrq/AAAnVDVAWzdBRS6FJor-Bk1Aa?dl=0
