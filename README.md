@@ -8,7 +8,7 @@ To use this Shiny application, you can use RStudio and you will need to install 
 
 We recommend anaconda3 if you need to install python, pip, and conda. You also need to install magic-impute.
 
-In R, you may need to install packages: shiny, shinythemes, reticulate, Rmagic, SCTCwhatateam, and ggplot2. For the SCTCwhatateam, you can install from github https://github.com/thanhbuu04/SCTCwhatateam
+In R, you may need to install packages: shiny, shinythemes, reticulate, Rmagic, SCTCwhatateam, and ggplot2. For the SCTCwhatateam, you can install from github https://github.com/pvvhoang/SCTCwhatateam-ShinyApp
 
 ## Quick Start
 
