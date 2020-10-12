@@ -15,7 +15,7 @@ shinyUI(fluidPage(
   # column(3, offset = 4, titlePanel("Indentify Cell locations from gene markers - Single Cell Transcriptomic Challenge")),
   # titlePanel(
   #   ("Indentify cell locations by scRNA-Seq data with gene markers")
-  #   # h2("Please find the manual here: https://github.com/thanhbuu04/SCTCwhatateam")
+  #   # h2("Please find the manual here: https://github.com/pvvhoang/SCTCwhatateam-ShinyApp")
   #   ),
 
   # tags$hr(),
